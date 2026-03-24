@@ -1,0 +1,11 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<div class="container">
+    <h2>🗳 Cast Your Vote</h2>
+
+    <form action="/cast_vote" method="post">
+        <button name="party" value="BJP">BJP</button>
+        <button name="party" value="Congress">Congress</button>
+        <button name="party" value="AAP">AAP</button>
+    </form>
+</div>
